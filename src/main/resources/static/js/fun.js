@@ -48,7 +48,7 @@ window.onkeydown = e => {
 // console.log("window.onload之前")
 window.onload = () => {
     // console.log("!!!!!!!!!!!!!!");
-    fetch("/bing").then(response => {
+    fetch("bing").then(response => {
         // console.log("!!");
         // console.log(response);
         if (response.ok) {
